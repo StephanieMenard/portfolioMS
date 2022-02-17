@@ -1,0 +1,50 @@
+*, ::before, ::after 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body 
+{
+    height: 100vh;
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+    background: url("../images/fond.jpeg");
+}
+  
+.accueil 
+{
+    background: url("../images/accueil.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+  
+.formation 
+{
+    border:none;
+}
+  
+.item 
+{
+    background: url("../images/fond.jpeg");
+}
+  
+.cardDark 
+{
+    background: url("../images/fond.jpeg");
+}
+  
+a 
+{
+    text-decoration: none;
+    color:green;
+}
+
+.technoProject
+{
+    font-size: 1rem;
+    font-style: italic;
+    list-style-type: none;
+}
